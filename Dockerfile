@@ -10,6 +10,5 @@ ONBUILD ADD sshd_config /etc/ssh/sshd_config
 CMD /usr/sbin/sshd -D
 USER nobody
 WORKDIR /tmp
-ENV foobar "Hi"
 
 EXPOSE 2222
